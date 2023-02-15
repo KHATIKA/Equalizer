@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body {
+    background-image: url(../assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: -28%;
+    background-color: #F2F2F2;
+}
+
+.equalizer-logo {
+    width: 140px;
+    height: 32px;
+    margin: 40px auto 64px 24px;
+}
+
+.help {
+    margin-bottom: 190px;
+}
+
+.first-container {
+    margin: auto;
+    width: 327px;
+    height: 320px;
+}
+
+.music-sound {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;
+    margin-bottom: 20px;
+}
+
+.first-pharagraph {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+.phone-img {
+    width: 209px;
+    height: 430px;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -110px;
+}
+
+.black-container {
+    width: 375px;
+    height: 900px;
+    background: #191826;
+    border-radius: 12px;
+    margin: 64px auto auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+}
+
+
+.orange {
+    width: 375px;
+    height: 546px;
+    background: #FA7453;
+    border-radius: 12px;
+    margin: auto;
+    position: absolute;
+    top: 47%;
+}
+
+.premium {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    padding-top: 48px;
+    padding-left: 36px;
+}
+
+.expert-level {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    padding-top: 12px;
+    padding-left: 36px;
+    width: 302px;
+}
+
+.dollar {
+    display: flex;
+    margin-top: 36px;
+    margin-left: 42px;
+}
+
+.money {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.time {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+}
+
+.first-button {
+    width: 296px;
+    height: 61px;
+    background: #191826;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.ios {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+    margin-left: 8px;
+}
+
+.second-button {
+    width: 296px;
+    height: 61px;
+    background: #FCFAF9;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.android {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.18px;
+    color: #191826;
+    margin-left: 8px;
+}
+
+footer {
+    background-color: white;
+    height: 334px;
+    margin-top: 69px;
+}
+
+.footer-equalizer {
+    width: 146.09px;
+    height: 32px;
+    margin: 64px auto 32px 24px;
+}
+
+.footer-p {
+    margin: auto;
+    width: 327px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.icons {
+    margin-top: 64px;
+    margin-left: 24px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url(../assets/bg-main-tablet.png);
+        background-position-y: -170px;
+        background-position-x: -400px;
+        background-color: white;
+        overflow-x: hidden;
+    }
+
+    .tablet-desktop {
+        display: block;
+        width: 280px;
+        height: 400px;
+        margin-left: 30px;
+        margin-top: -40px;
+    }
+
+    .one-big {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .equalizer-logo {
+        margin: 62px auto 95px 39px;
+    }
+
+    .first-container {
+        margin-left: 40px;
+        width: 470px;
+    }
+
+    .music-sound {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+    }
+
+    .first-pharagraph {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .black-container {
+        width: 696px;
+        height: 600px;
+    }
+
+    .orange {
+        width: 400px;
+        top: 160px;
+        right: 70px;
+    }
+
+    .phone-img {
+        width: 271px;
+        height: 556px;
+    }
+
+    .phone {
+        top: -140px;
+        left: 50px;
+    }
+
+    .last-div {
+        width: 696px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .footer-p {
+        margin-left: 25px;
+    }
+
+    .icons {
+        padding-bottom: 48px;
+    }
+
+    footer {
+        width: 696px;
+        margin-top: 100px;
+        padding: 32px;
+    }
+
+    .footer-div {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(../assets/bg-main-desktop.png);
+    }
+
+    .help {
+        margin: 60px auto auto 130px
+    }
+
+    .tablet-desktop {
+        width: 312px;
+        height: 468px;
+    }
+
+    .equalizer-logo {
+        margin-bottom: 56px;
+        margin-top: 40px;
+    }
+
+    .music-sound {
+        width: 900px;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+
+    .first-pharagraph {
+        width: 840px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .black-container {
+        width: 1110px;
+        margin-top: 300px;
+    }
+
+    .phone-img {
+        width: 280px;
+        height: 606px;
+    }
+
+    .phone {
+        top: -195px;
+        left: 197px;
+    }
+
+    .orange {
+        width: 446px;
+        height: 625px;
+        top: 130px;
+        right: 30px;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-p {
+        width: 366px;
+    }
+
+    .footer-equalizer {
+        margin-left: 60px;
+        padding-left: 90px;
+        margin-right: -130px;
+        margin-right: 60px;  
+        margin-top: 0px; 
+    }
+
+    .first-button {
+        cursor: pointer;
+    }
+
+    .first-button:hover {
+        background: #66E2DC;
+    }
+
+    .second-button {
+        cursor: pointer;
+    }
+
+    .second-button:hover {
+        background: #FFB964;
+    }
+
+    .icon {
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .icon:hover {
+        background: #FA7453;
+    }
+
+   
+}
